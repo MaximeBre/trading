@@ -1,12 +1,21 @@
 name: Paper Trading - 3x Daily
 
-# Läuft 40min vor jedem Binance 8h Settlement (00:00, 08:00, 16:00 UTC)
 on:
   schedule:
     - cron: '20 23 * * *'   # 23:20 UTC → vor 00:00 Settlement
     - cron: '20 7 * * *'    # 07:20 UTC → vor 08:00 Settlement
     - cron: '20 15 * * *'   # 15:20 UTC → vor 16:00 Settlement
-  workflow_dispatch:         # Manueller Trigger für Tests
+  workflow_dispatch:
+
+# Explicit permissions required for gh-pages deploy + issue creation
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   paper-trade:
@@ -25,7 +34,6 @@ jobs:
             crypto_quant/outputs/paper_trading_trades.csv
             crypto_quant/outputs/paper_trading_performance.csv
             crypto_quant/outputs/paper_trading_history.csv
-            crypto_quant/outputs/dashboard.html
           key: paper-trading-state-${{ github.run_id }}
           restore-keys: |
             paper-trading-state-
@@ -62,11 +70,10 @@ jobs:
             crypto_quant/outputs/paper_trading_trades.csv
             crypto_quant/outputs/paper_trading_performance.csv
             crypto_quant/outputs/paper_trading_history.csv
-            crypto_quant/outputs/dashboard.html
           key: paper-trading-state-${{ github.run_id }}
 
       - name: Deploy Dashboard to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: success()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -95,6 +102,6 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `Paper Trading Failed - ${new Date().toISOString().slice(0,16)}`,
-              body: `Run #${context.runNumber} failed.\n\nLogs: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}\n\nCheck \`crypto_quant/outputs/paper_trading_errors.log\` for details.`,
+              body: `Run #${context.runNumber} failed.\n\nLogs: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
               labels: ['trading-error']
             })
