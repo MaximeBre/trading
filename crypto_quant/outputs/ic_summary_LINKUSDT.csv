@@ -1,0 +1,73 @@
+feature,ic_mean,ic_std,icir,ic_positive_pct,ic_obs,decay_halflife_periods,decay_halflife_hours,quality
+fundingRate,0.37842,0.24264,1.5596,91.7,3148,10.0,80.0,sehr gut
+rate_link,0.37842,0.24264,1.5596,91.7,3148,10.0,80.0,sehr gut
+sync_score,0.41796,0.2741,1.5248,93.8,779,10.0,80.0,sehr gut
+rate_zscore,0.35243,0.23528,1.4979,92.8,3079,10.0,80.0,sehr gut
+zscore_link,0.35243,0.23528,1.4979,92.8,3079,10.0,80.0,sehr gut
+rate_zscore_7d,0.3368,0.22573,1.492,91.5,3071,4.0,32.0,sehr gut
+tri_exchange_mean,0.36559,0.25291,1.4455,89.7,3148,10.0,80.0,sehr gut
+rel_score_link,0.29631,0.23411,1.2657,90.3,3051,6.0,48.0,sehr gut
+rate_momentum_7d,0.30345,0.24038,1.2624,87.6,3144,10.0,80.0,sehr gut
+portfolio_rate_weighted,0.30024,0.24784,1.2114,88.9,3153,10.0,80.0,sehr gut
+rate_momentum_3d,0.27972,0.23284,1.2013,87.3,3149,5.0,40.0,sehr gut
+rate_avax,0.26209,0.25238,1.0385,84.4,3138,10.0,80.0,sehr gut
+rate_momentum_1d,0.21463,0.20893,1.0273,83.4,3148,4.0,32.0,sehr gut
+mom_link,0.21463,0.20893,1.0273,83.4,3148,4.0,32.0,sehr gut
+zscore_avax,0.22771,0.25361,0.8979,81.0,3079,10.0,80.0,gut
+rate_doge,0.22695,0.26186,0.8667,78.3,3093,10.0,80.0,gut
+rate_sol,0.22824,0.26336,0.8666,79.3,3132,10.0,80.0,gut
+rate_eth,0.21629,0.25976,0.8326,78.0,3088,10.0,80.0,gut
+zscore_sol,0.20326,0.25215,0.8061,77.5,3079,10.0,80.0,gut
+all_above_zscore_1,0.19413,0.24155,0.8037,77.6,1074,10.0,80.0,gut
+zscore_eth,0.19259,0.26432,0.7286,76.3,3079,10.0,80.0,gut
+zscore_doge,0.18653,0.26317,0.7088,74.1,3051,10.0,80.0,gut
+mom_avax,0.14903,0.21047,0.7081,75.9,3141,4.0,32.0,gut
+rate_xrp,0.18492,0.26277,0.7038,73.7,3114,10.0,80.0,gut
+mom_eth,0.13352,0.19747,0.6762,75.3,3093,3.0,24.0,gut
+rel_score_avax,0.17034,0.26603,0.6403,75.1,3051,10.0,80.0,gut
+rel_score_doge,0.14676,0.23726,0.6185,71.5,3051,10.0,80.0,gut
+pct_positive_7d,0.21281,0.34872,0.6102,72.1,709,10.0,80.0,gut
+mom_doge,0.11785,0.19512,0.604,72.9,3096,3.0,24.0,gut
+rel_score_sol,0.14558,0.2414,0.6031,72.9,3051,10.0,80.0,gut
+zscore_xrp,0.15391,0.26587,0.5789,70.4,3079,10.0,80.0,gut
+mom_sol,0.10586,0.20381,0.5194,70.9,3138,4.0,32.0,gut
+rel_score_eth,0.12368,0.24112,0.513,69.1,3051,10.0,80.0,gut
+binance_premium,0.11152,0.21891,0.5094,66.9,157,10.0,80.0,gut
+rate_acceleration,0.09836,0.19343,0.5085,67.5,3148,10.0,80.0,gut
+mom_xrp,0.09652,0.21368,0.4517,64.9,3120,4.0,32.0,schwach
+rel_score_xrp,0.10633,0.23789,0.447,65.9,3051,10.0,80.0,schwach
+hierarchy_normal,0.09193,0.22107,0.4158,67.2,2606,8.0,64.0,schwach
+rate_btc,0.11097,0.29174,0.3804,59.9,3098,10.0,80.0,schwach
+rotation_direction,0.06849,0.19886,0.3444,63.3,3140,4.0,32.0,schwach
+mom_btc,0.06396,0.20317,0.3148,61.4,3109,7.0,56.0,schwach
+zscore_btc,0.09195,0.29223,0.3146,58.6,3079,10.0,80.0,schwach
+rel_score_btc,0.04791,0.27288,0.1756,55.3,3051,10.0,80.0,unbrauchbar
+pct_positive_30d,0.06785,0.42931,0.158,53.4,934,10.0,80.0,unbrauchbar
+rate_30d_std,0.03723,0.32004,0.1163,52.9,3079,10.0,80.0,unbrauchbar
+btc_falling_sol_rising,0.01512,0.18858,0.0802,53.2,3006,10.0,80.0,unbrauchbar
+usdc_inflow_7d_pct,0.022,0.3182,0.0691,50.0,3153,10.0,80.0,unbrauchbar
+weekday_sin,0.01858,0.27566,0.0674,54.6,3153,8.0,64.0,unbrauchbar
+usdc_supply,0.02047,0.34016,0.0602,49.6,3153,10.0,80.0,unbrauchbar
+rate_7d_mean,0.01472,0.293,0.0502,47.9,3145,10.0,80.0,unbrauchbar
+max_exchange_spread,0.00855,0.23775,0.0359,47.0,283,10.0,80.0,unbrauchbar
+usdt_inflow_7d_pct,0.00818,0.31746,0.0258,52.1,3153,10.0,80.0,unbrauchbar
+hour_cos,0.00293,0.15606,0.0188,48.7,3153,3.0,24.0,unbrauchbar
+total_inflow_7d_pct,0.00523,0.32683,0.016,48.6,3153,10.0,80.0,unbrauchbar
+tri_exchange_std,0.00121,0.24025,0.005,45.9,283,10.0,80.0,unbrauchbar
+total_stablecoin_supply,0.00012,0.34933,0.0004,48.4,3153,10.0,80.0,unbrauchbar
+weekday,-0.00334,0.26675,-0.0125,49.4,3153,9.0,72.0,unbrauchbar
+hour,-0.00293,0.15606,-0.0188,48.0,3153,3.0,24.0,unbrauchbar
+usdt_supply,-0.00711,0.35315,-0.0201,48.9,3153,10.0,80.0,unbrauchbar
+rate_7d_std,-0.01774,0.32378,-0.0548,48.2,3145,10.0,80.0,unbrauchbar
+rate_volatility_7d,-0.01774,0.32378,-0.0548,48.2,3145,10.0,80.0,unbrauchbar
+rate_30d_mean,-0.04196,0.33989,-0.1234,42.7,3079,10.0,80.0,unbrauchbar
+weekday_cos,-0.03931,0.274,-0.1435,42.2,3153,3.0,24.0,unbrauchbar
+hour_sin,-0.03692,0.15521,-0.2378,39.1,3153,,,unbrauchbar
+hierarchy_inversion,-0.09723,0.23921,-0.4065,27.6,2967,10.0,80.0,unbrauchbar
+btc_eth_spread_zscore,-0.09521,0.2285,-0.4167,33.2,3079,,,unbrauchbar
+btc_eth_spread,-0.09665,0.23074,-0.4189,32.8,3136,4.0,32.0,unbrauchbar
+eth_sol_spread_zscore,-0.09604,0.2253,-0.4263,32.7,3079,9.0,72.0,unbrauchbar
+eth_sol_spread,-0.10357,0.22519,-0.4599,33.0,3137,10.0,80.0,unbrauchbar
+btc_sol_spread_zscore,-0.14232,0.22727,-0.6262,26.0,3079,5.0,40.0,unbrauchbar
+btc_sol_spread,-0.15432,0.2316,-0.6663,25.6,3137,10.0,80.0,unbrauchbar
+pred_direction_matches_actual,-0.39433,0.26676,-1.4782,6.3,773,10.0,80.0,unbrauchbar

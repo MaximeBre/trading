@@ -1,0 +1,12 @@
+{
+  "huber_slope": 0.000636859159481999,
+  "n_estimators": 851,
+  "max_depth": 7,
+  "learning_rate": 0.13631268677533687,
+  "subsample": 0.9790759201619793,
+  "colsample_bytree": 0.9074876430401788,
+  "min_child_weight": 1,
+  "objective": "reg:pseudohubererror",
+  "tree_method": "hist",
+  "verbosity": 0
+}

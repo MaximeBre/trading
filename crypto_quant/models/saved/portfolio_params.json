@@ -1,0 +1,9 @@
+{
+  "neutral_scalar": 0.40999736919278407,
+  "half_kelly": 0.5893731599545623,
+  "max_position_per_asset": 0.2623790665880267,
+  "max_total_position": 0.6101330331151515,
+  "cost_buffer": 2.8537270901310494,
+  "min_hold_periods": 29,
+  "crisis_threshold": 0.3755470278499589
+}
