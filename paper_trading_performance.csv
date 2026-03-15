@@ -1,0 +1,2 @@
+timestamp,portfolio_value,period_return_pct,cumulative_return_pct,active_positions,avg_funding_rate,btc_regime,eth_regime,sol_regime,doge_regime,xrp_regime,avax_regime,link_regime,aave_yield_earned
+2026-03-15T13:15:42.895756+00:00,1000.0457,0.004566,0.0046,0,5.79e-06,p_crisis,p_crisis,p_bear,p_crisis,p_crisis,p_crisis,p_crisis,0.045662
