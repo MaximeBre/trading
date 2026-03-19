@@ -1,7 +1,7 @@
 {
   "start_date": "2026-03-15",
   "capital": 1000.0,
-  "current_value": 1000.6851504780519,
+  "current_value": 1000.7308438639184,
   "positions": {
     "BTCUSDT": {
       "state": "FLAT",
@@ -74,20 +74,10 @@
       "holding_periods": 0
     }
   },
-  "last_run": "2026-03-18T23:44:04.572452+00:00",
+  "last_run": "2026-03-19T07:57:02.415956+00:00",
   "total_trades": 0,
-  "total_runs": 15,
+  "total_runs": 16,
   "regime_history": [
-    {
-      "time": "2026-03-17T16:36:19.241816+00:00",
-      "btc": "p_crisis",
-      "eth": "p_crisis",
-      "sol": "p_bear",
-      "doge": "p_crisis",
-      "xrp": "p_crisis",
-      "avax": "p_crisis",
-      "link": "p_crisis"
-    },
     {
       "time": "2026-03-17T23:47:53.863963+00:00",
       "btc": "p_crisis",
@@ -120,6 +110,16 @@
     },
     {
       "time": "2026-03-18T23:44:04.572452+00:00",
+      "btc": "p_crisis",
+      "eth": "p_crisis",
+      "sol": "p_bear",
+      "doge": "p_crisis",
+      "xrp": "p_crisis",
+      "avax": "p_crisis",
+      "link": "p_crisis"
+    },
+    {
+      "time": "2026-03-19T07:57:02.415956+00:00",
       "btc": "p_crisis",
       "eth": "p_crisis",
       "sol": "p_bear",
