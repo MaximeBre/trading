@@ -20,3 +20,4 @@ timestamp,portfolio_value,period_return_pct,cumulative_return_pct,active_positio
 2026-03-20T07:56:45.453024+00:00,1000.8679,0.004566,0.0868,0,5.79e-06,p_crisis,p_crisis,p_bear,p_crisis,p_crisis,p_crisis,p_crisis,0.0457
 2026-03-20T16:01:37.087395+00:00,1000.9136,0.004566,0.0914,0,5.79e-06,p_crisis,p_crisis,p_bear,p_crisis,p_crisis,p_crisis,p_crisis,0.045702
 2026-03-20T23:44:19.232201+00:00,1000.9593,0.004566,0.0959,0,5.79e-06,p_crisis,p_crisis,p_bear,p_crisis,p_crisis,p_crisis,p_crisis,0.045704
+2026-03-21T07:48:01.123833+00:00,1001.005,0.004566,0.1005,0,5.79e-06,p_crisis,p_crisis,p_bear,p_crisis,p_crisis,p_crisis,p_crisis,0.045706
